@@ -2,7 +2,7 @@
 
 for i in {1..100}
 do
-    nazwa_pliku="file$i.txt"
+    nazwa_pliku="log$i.txt"
     touch "$nazwa_pliku"
     echo "ten plik nazywa sie $nazwa_pliku" >> "$nazwa_pliku"
     echo "jest on plikiem numer $i" >> "$nazwa_pliku"
